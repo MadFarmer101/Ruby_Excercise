@@ -1,3 +1,6 @@
-puts "Hey, who are you?"
-name = gets
-puts "Oh, ok then! Hey, #{name}! Move along to the next one!"
+puts "Hey, what is your first name?"
+first_name = gets.chop
+puts "What's your last name"
+last_name = gets.chop
+puts "Hey #{first_name + " " + last_name}, please move along!"
+

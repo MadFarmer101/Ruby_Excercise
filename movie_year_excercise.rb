@@ -6,5 +6,9 @@ movies = {
     "Donnie Darko": 2001
 }
 
-movies.each_value {|value| puts value}
 
+
+movie_collection = []
+movie_collection.push "movies"
+
+movie_collection.each_value {|value| puts value}
