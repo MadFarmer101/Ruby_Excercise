@@ -23,3 +23,13 @@ end
 
 puts "write your name, please"
 greeting(gets)
+
+
+def multiply(x, y)
+    puts x * y
+  end
+  
+  puts "C'mon give me two numbers! Fast, fast..."
+  multiply(gets.to_i, gets.to_i)
+
+
